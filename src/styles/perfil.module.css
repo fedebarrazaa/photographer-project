@@ -68,3 +68,37 @@
     text-align: left;
     width: 100%;
 }
+
+/*box*/
+.section_box {
+     background-color: #f7f7f7;
+    
+    border-radius: 1em;
+    padding: 10px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10px;
+
+    display: grid;
+    flex-direction: column;
+}
+@media (min-width: 900px) {
+    .section_box  {
+      width: 50%;
+    }
+}
+
+
+
+.box_1 {
+    background-color: red;
+}
+.box_2 {
+    background-color: #E95ACB;
+}
+.box_3{
+    background-color: aquamarine;
+}
+.box_4 {
+    background-color: bisque;
+}

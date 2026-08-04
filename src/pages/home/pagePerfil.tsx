@@ -42,8 +42,11 @@ export function DesingPagePerfil(){
            </article>
         </section>
         
-        <section> 
-            <h1>asd</h1>
+        <section className={style.section_box}> 
+            <div className={style.box_1}> caja 1</div>
+            <div className={style.box_2}> caja 2</div>
+            <div className={style.box_3}> caja 3</div>
+            <div className={style.box_4}> caja 4</div>
         </section>
         </>
     )
