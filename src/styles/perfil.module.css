@@ -71,7 +71,7 @@
 
 /*box*/
 .section_box {
-     background-color: #f7f7f7;
+    background-color: #f7f7f7;
     
     border-radius: 1em;
     padding: 10px;
@@ -80,6 +80,8 @@
     margin-top: 10px;
 
     display: grid;
+    gap: 10px;
+    grid-template-rows: 200px 200px 200px 200px;
     flex-direction: column;
 }
 @media (min-width: 900px) {
@@ -88,17 +90,23 @@
     }
 }
 
-
-
 .box_1 {
-    background-color: red;
+    background-color: #EAEAEA;
+    border-radius: 1em;
+    padding: 20px;
 }
 .box_2 {
-    background-color: #E95ACB;
+    background-color: #EAEAEA;
+    border-radius: 1em;
+    padding: 20px;
 }
 .box_3{
-    background-color: aquamarine;
+    background-color: #EAEAEA;
+    border-radius: 1em;
+    padding: 20px;
 }
 .box_4 {
-    background-color: bisque;
+    background-color: #EAEAEA;
+    border-radius: 1em;
+    padding: 20px;
 }
