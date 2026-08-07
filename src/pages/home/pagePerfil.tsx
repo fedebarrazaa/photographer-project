@@ -43,8 +43,13 @@ export function DesingPagePerfil(){
         </section>
         
         <section className={style.section_box}> 
-            <div className={style.box_1}> caja 1</div>
-            <div className={style.box_2}> caja 2</div>
+            <div className={style.box_1}> 
+                <h2 className={style.text_box1}> Cada proyecto es una historia, cada encuadre una decisión. </h2>
+            </div>
+            <div className={style.box_2}> 
+                <h2> Trusted by </h2> 
+                <p> Trabajé con marcas y artistas que confían en mi visión</p>
+            </div>
             <div className={style.box_3}> caja 3</div>
             <div className={style.box_4}> caja 4</div>
         </section>
