@@ -47,8 +47,8 @@ export function DesingPagePerfil(){
                 <h2 className={style.text_box1}> Cada proyecto es una historia, cada encuadre una decisión. </h2>
             </div>
             <div className={style.box_2}> 
-                <h2> Trusted by </h2> 
-                <p> Trabajé con marcas y artistas que confían en mi visión</p>
+                <h2 className={style.text_box2}> Trusted by </h2> 
+                <p className={style.text_box2_p}> Trabajé con marcas y artistas que confían en mi visión</p>
             </div>
             <div className={style.box_3}> caja 3</div>
             <div className={style.box_4}> caja 4</div>
