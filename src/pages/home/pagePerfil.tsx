@@ -50,7 +50,10 @@ export function DesingPagePerfil(){
                 <h2 className={style.text_box2}> Trusted by </h2> 
                 <p className={style.text_box2_p}> Trabajé con marcas y artistas que confían en mi visión</p>
             </div>
-            <div className={style.box_3}> caja 3</div>
+            <div className={style.box_3}>
+                <h2 className={style.text_box2}> 50% </h2> 
+                <p className={style.text_box2_p}> 120+ proyectos entregados</p>
+            </div>
             <div className={style.box_4}> caja 4</div>
         </section>
         </>
