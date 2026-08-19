@@ -97,7 +97,7 @@
     transition: transform 0.3s ease;
 }
 .box_1:hover{
-    transform: scale(1.1);
+    transform: scale(1.02);
 }
 @media (min-width: 900px) {
     .box_1  {
@@ -116,6 +116,10 @@
     background-color: #EAEAEA;
     border-radius: 1em;
     padding: 20px;
+    transition: transform 0.3s ease;
+}
+.box_2:hover{
+    transform: scale(1.02);
 }
 @media (min-width: 900px) {
     .box_2  {
@@ -132,6 +136,10 @@
     background-color: #EAEAEA;
     border-radius: 1em;
     padding: 20px;
+    transition: transform 0.3s ease;
+}
+.box_3:hover{
+    transform: scale(1.02);
 }
 @media (min-width: 900px) {
     .box_3  {
@@ -143,6 +151,10 @@
     background-color: #EAEAEA;
     border-radius: 1em;
     padding: 20px;
+    transition: transform 0.3s ease;
+}
+.box_4:hover{
+    transform: scale(1.02);
 }
 @media (min-width: 900px) {
     .box_4  {

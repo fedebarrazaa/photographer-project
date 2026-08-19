@@ -42,6 +42,10 @@ export function DesingPagePerfil(){
            </article>
         </section>
         
+        <article> 
+                <p>¿Por que trabajas conmigo?</p>
+                </article>
+
         <section className={style.section_box}> 
             <div className={style.box_1}> 
                 <h2 className={style.text_box1}> Cada proyecto es una historia, cada encuadre una decisión. </h2>
