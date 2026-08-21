@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom';
 import { IoArrowBackSharp } from "react-icons/io5";
-import { AnimatedTooltip } from '../../components/ui/animated-tooltip'
-import style from '../../styles/perfil.module.css'
-import perfil from '../../assets/image.png'
+import { AnimatedTooltip } from '../../components/ui/animated-tooltip';
+import style from '../../styles/perfil.module.css';
+import perfil from '../../assets/image.png';
+import fede from '../../assets/paisajes/montaña.jpg'; 
+
 const people =[{ 
     id: 1,
     name: "Alex Carter",
@@ -41,13 +43,10 @@ export function DesingPagePerfil(){
                 ))} 
            </article>
         </section>
-        
-        <article> 
-                <p>¿Por que trabajas conmigo?</p>
-                </article>
-
+    
         <section className={style.section_box}> 
             <div className={style.box_1}> 
+                <img src={fede} className={}/>
                 <h2 className={style.text_box1}> Cada proyecto es una historia, cada encuadre una decisión. </h2>
             </div>
             <div className={style.box_2}> 
