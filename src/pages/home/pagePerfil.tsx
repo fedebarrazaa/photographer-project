@@ -3,7 +3,7 @@ import { IoArrowBackSharp } from "react-icons/io5";
 import { AnimatedTooltip } from '../../components/ui/animated-tooltip';
 import style from '../../styles/perfil.module.css';
 import perfil from '../../assets/image.png';
-import fede from '../../assets/paisajes/montaña.jpg'; 
+import imgBoxUno from '../../assets/paisajes/montaña.jpg'; 
 
 const people =[{ 
     id: 1,
@@ -46,7 +46,7 @@ export function DesingPagePerfil(){
     
         <section className={style.section_box}> 
             <div className={style.box_1}> 
-                <img src={fede} className={}/>
+                <img src={imgBoxUno} className={style.imgBoxUno}/>
                 <h2 className={style.text_box1}> Cada proyecto es una historia, cada encuadre una decisión. </h2>
             </div>
             <div className={style.box_2}> 
