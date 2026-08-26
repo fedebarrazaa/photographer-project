@@ -46,8 +46,8 @@ export function DesingPagePerfil(){
     
         <section className={style.section_box}> 
             <div className={style.box_1}> 
-                <img src={imgBoxUno} className={style.imgBoxUno}/>
                 <h2 className={style.text_box1}> Cada proyecto es una historia, cada encuadre una decisión. </h2>
+                <img src={imgBoxUno} className={style.imgBoxUno}/>
             </div>
             <div className={style.box_2}> 
                 <h2 className={style.text_box2}> Trusted by </h2> 
