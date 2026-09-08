@@ -81,7 +81,7 @@
 
     display: grid;
     grid-gap: 10px;
-    grid-template-rows: 200px 200px 200px 200px;
+    grid-template-rows: 230px 150px 200px 200px;
     flex-direction: column;
 }
 @media (min-width: 900px) {
@@ -92,14 +92,13 @@
 
 /*BOX 1*/
 .box_1 {
-    background-color: #EAEAEA;
+    background-color: #EAEAEA; 
     border-radius: 1em;
     padding: 20px;
     transition: transform 0.3s ease;
 
     display: flex;
-    flex-direction: row;
-    align-items: start;
+    flex-direction: column;
     gap: 6px;
 }
 .box_1:hover{
@@ -113,14 +112,9 @@
 
       flex-direction: column;
     }
-    .text_box1 {
-        background-color: rebeccapurple;
-        
-        color: red;
-    }
 }
 .text_box1 {
-    width: 250px;
+    width: 260px;
     color: #111111;
     font-size: 16px;
     font-weight: bold;
@@ -157,6 +151,13 @@
 .box_3:hover{
     transform: scale(1.02);
 }
+
+.text_box2 {
+    background-color: red;
+    
+}
+
+
 @media (min-width: 900px) {
     .box_3  {
       grid-column: 3 / 4;
@@ -181,7 +182,7 @@
 
 /*IMG DE CAJAS*/
 .imgBoxUno {
-    width: 150px;
-    height: 100px;
+    width: 280px;
+    height: 140px;
     border-radius: 0.5em;
 }
