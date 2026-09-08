@@ -81,12 +81,16 @@
 
     display: grid;
     grid-gap: 10px;
-    grid-template-rows: 230px 150px 200px 200px;
+    grid-template-rows: 230px 150px 150px 200px;
     flex-direction: column;
 }
 @media (min-width: 900px) {
     .section_box  {
       width: 50%;
+      grid-template-rows: 140px 100px 140px 140px;
+      height: 280px;
+      margin-bottom: 10px;
+      
     }
 }
 
@@ -152,9 +156,11 @@
     transform: scale(1.02);
 }
 
-.text_box2 {
-    background-color: red;
-    
+.text_box3 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #111111;
+
 }
 
 
