@@ -2,6 +2,8 @@
 import './styles/index.module.css'
 import { DesingHome } from './pages/home/pageHome'
 import { DesingPagePerfil } from './pages/home/pagePerfil'
+import { DesingPageContact } from './pages/contact/pageContact.tsx'
+
 
 import { BrowserRouter, Routes, Route } from "react-router";
 
