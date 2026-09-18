@@ -16,6 +16,7 @@ import { BrowserRouter, Routes, Route } from "react-router";
        <Routes>
         <Route path="/" element={<DesingHome />} />
         <Route path="/perfil" element={<DesingPagePerfil />} />
+        <Route path="/contacto" element={<DesingPageContact />} />
        {/* <Route path="*" element={<NotFound />} />*/ } 
       </Routes>
     </BrowserRouter>
