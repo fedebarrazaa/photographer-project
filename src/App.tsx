@@ -5,7 +5,7 @@ import { DesingPagePerfil } from './pages/home/pagePerfil'
 import { DesingPageContact } from './pages/contact/pageContact.tsx'
 
 
-import { BrowserRouter, Routes, Route } from "react-router";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
 
