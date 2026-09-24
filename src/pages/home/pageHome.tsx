@@ -17,9 +17,9 @@ import { DiPhotoshop } from "react-icons/di";
 
 export function DesingHome() {
     const pages = [
-        {id: 1, name: 'Home', href: '#'},
-        {id: 2, name: 'Work', href: '#'},
-        {id: 3, name: 'Contact', href: '#'},
+        {id: 1, name: 'Home', href: '/'},
+        {id: 2, name: 'Work', href: '/work'},
+        {id: 3, name: 'Contact', href: '/contact'},
     ]
 
     const datos = [
@@ -65,9 +65,9 @@ export function DesingHome() {
                 </button>
                 <ul className={isOpen ? style.menu_open : style.menu_closed}>
                     {pages.map((usuario)=>(
-                        <li key={usuario.id}>
-                            {usuario.name}
-                        </li>
+                       <li key={usuario.id}>
+                       <Link to={usuario.href}>{usuario.name}</Link>
+                      </li>
                     ))}
                 </ul>
             </div>
@@ -77,7 +77,7 @@ export function DesingHome() {
             <img src={imgFoto} className={style.img_perfil} />
             <article>
                 <p className={style.section_desing_p}> Me apasiona construir una identidad visual sólida para cada proyecto, desde la idea inicial hasta la entrega final, cuidando cada detalle de iluminación, composición y narrativa.</p>
-                <Link to='perfil' className={style.section_link}><GrLinkNext /> </Link>
+                <Link to='/perfil' className={style.section_link}><GrLinkNext /> </Link>
             </article>
         </section>
 
