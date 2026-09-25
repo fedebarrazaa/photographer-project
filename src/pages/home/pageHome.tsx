@@ -19,7 +19,7 @@ export function DesingHome() {
     const pages = [
         {id: 1, name: 'Home', href: '/'},
         {id: 2, name: 'Work', href: '/work'},
-        {id: 3, name: 'Contact', href: '/contact'},
+        {id: 3, name: 'Contact', href: '/contacto'},
     ]
 
     const datos = [
