@@ -17,6 +17,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
         <Route path="/" element={<DesingHome />} />
         <Route path="/perfil" element={<DesingPagePerfil />} />
         <Route path="/contacto" element={<DesingPageContact />} />
+        <Route path="/work" element={<DesingPageWork/>}/>
        {/* <Route path="*" element={<NotFound />} />*/ } 
       </Routes>
     </BrowserRouter>
