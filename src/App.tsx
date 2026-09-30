@@ -3,7 +3,7 @@ import './styles/index.module.css'
 import { DesingHome } from './pages/home/pageHome'
 import { DesingPagePerfil } from './pages/home/pagePerfil'
 import { DesingPageContact } from './pages/contact/pageContact.tsx'
-
+import { DesingPageWork } from './pages/work/pageWork.tsx'
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -17,7 +17,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
         <Route path="/" element={<DesingHome />} />
         <Route path="/perfil" element={<DesingPagePerfil />} />
         <Route path="/contacto" element={<DesingPageContact />} />
-        <Route path="/work" element={<DesingPageWork/>}/>
+        <Route path="/work" element={<DesingPageWork />}/>
        {/* <Route path="*" element={<NotFound />} />*/ } 
       </Routes>
     </BrowserRouter>
