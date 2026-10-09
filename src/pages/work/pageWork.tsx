@@ -9,6 +9,10 @@ export function DesingPageWork() {
             <Link to = "/" className={style.section_link}><IoArrowBackSharp/></Link>
         </header>
         <h1> pagina de work </h1>
+
+        <section>
+             <p> asdas </p>
+             </section>
         </>
     )
 }
