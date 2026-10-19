@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { IoArrowBackSharp } from "react-icons/io5";
+import style from "../../styles/work.module.css"
 
 
 export function DesingPageWork() {
@@ -15,7 +16,6 @@ export function DesingPageWork() {
             <section> 
                 <p> email... </p>
                 </section>
-
         
         </>
     )
