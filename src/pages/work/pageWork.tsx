@@ -15,7 +15,8 @@ export function DesingPageWork() {
 
             <section> 
                 <p> email... </p>
-                </section>
+                </section>  
+
         
         </>
     )
