@@ -6,7 +6,7 @@ import style from "../../styles/work.module.css"
 export function DesingPageWork() {
     return (
         <> 
-        <header> 
+        <header className={style.header_work}> 
             <Link to = "/" className={style.section_link}><IoArrowBackSharp/></Link>
         </header>
         <section> 
