@@ -6,7 +6,7 @@ import style from "../../styles/contact.module.css"
 export function DesingPageContact() {
     return (
         <> 
-        <header> 
+        <header className={style.header_contact}> 
             <Link to = "/" className={style.section_link}><IoArrowBackSharp/></Link>
         </header>
 
