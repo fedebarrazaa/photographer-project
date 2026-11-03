@@ -14,7 +14,8 @@ export function DesingPageWork() {
             </section> 
 
             <section> 
-                <p> email... </p>
+                <p> @alexcarterfilms</p>
+                <p> alexcarter@northframe.studio </p>
                 </section>  
 
         
