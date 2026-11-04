@@ -13,7 +13,7 @@ export function DesingPageWork() {
             caja grande 1 component de fotos 
             </section> 
 
-            <section> 
+            <section className={style.section_email}> 
                 <p> @alexcarterfilms</p>
                 <p> alexcarter@northframe.studio </p>
                 </section>  
